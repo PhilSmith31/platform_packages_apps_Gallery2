@@ -89,4 +89,4 @@
 
 -keep class com.thundersoft.hz.selfportrait.makeup.engine.MakeupEngine{
   *;
-}
+-dontwarn android.util.Pools*
