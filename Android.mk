@@ -53,7 +53,7 @@ include $(BUILD_PACKAGE)
 
 ifeq ($(strip $(LOCAL_PACKAGE_OVERRIDES)),)
 
-# Use the following include to make gallery test apk
+# Use the following include to make gallery test apk  
 include $(call all-makefiles-under, $(LOCAL_PATH))
 
 endif
