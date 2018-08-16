@@ -87,6 +87,6 @@
 -keep class com.android.gallery3d.jpegstream.JPEGInputStream { *; }
 -keep class com.android.gallery3d.jpegstream.StreamUtils { *; }
 
--keep class com.thundersoft.hz.selfportrait.makeup.engine.MakeupEngine{
-  *;
-# -dontwarn android.util.Pools*
+#-keep class com.thundersoft.hz.selfportrait.makeup.engine.MakeupEngine{
+#  *;
+-dontwarn android.util.Pools*
